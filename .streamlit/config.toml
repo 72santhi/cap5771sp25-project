@@ -1,0 +1,7 @@
+[theme]
+base="dark"                        # switch to dark mode
+primaryColor="#e50914"             # Netflix red accent
+backgroundColor="#000000"          # true black bg
+secondaryBackgroundColor="#111111" # very dark grey panels
+textColor="#FFFFFF"                # white text
+font="sans serif"
