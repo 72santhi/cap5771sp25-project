@@ -24,7 +24,7 @@ An interactive recommendation system that predicts the next best item (Movie, Mu
 ## 📺 Demo Videos
 
 [[▶️ Dashboard Demo]](https://youtu.be/YOUR_VIDEO_ID)
-[[▶️ Data Preprocessing, Model Selection & Training]](https://youtu.be/9GcDJNJSX6Q)
+---
 
 [[▶️ Data Preprocessing, Model Selection & Training]](https://youtu.be/9GcDJNJSX6Q)
 ---
