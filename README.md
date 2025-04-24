@@ -1,6 +1,6 @@
 # 🎬 Session-Based Cross-Domain Recommender
 
-An interactive recommendation system that predicts the next best item (Movie, Music, or Book) based on a user's ongoing session using a GRU4Rec model. The system is deployed via a Netflix-themed Streamlit dashboard with real-time interaction.
+An interactive recommendation system that predicts the next best item (Movie, Music, or Book) based on a user's ongoing session using a GRU4Rec model. The system is deployed via a Streamlit dashboard with real-time interaction.
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0-orange)
@@ -21,15 +21,20 @@ An interactive recommendation system that predicts the next best item (Movie, Mu
 
 ---
 
+
 ## 📺 Demo Videos
 
-### Dashboard Demo (4 mins)  
-<iframe src="https://drive.google.com/file/d/1C1WuEWpatL2zhSvaX_6W_M98UIe9VejN/preview" width="640" height="360" allow="autoplay"></iframe>
+### 🔹 Dashboard Demo (4 mins)
+<video width="640" height="360" controls>
+  <source src="Reports/Video Demo/Dashboard Demo.mpv4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-### Dataset & Model Walkthrough (4 mins)  
-<iframe src="https://drive.google.com/file/d/1Iag5igRfxkv7yLTSvamyQ1tScOKBfdf2/preview" width="640" height="360" allow="autoplay"></iframe>
-
----
+### 🔹 Dataset & Model Walkthrough (4 mins)
+<video width="640" height="360" controls>
+  <source src="Reports/Video Demo/Cross_Domain_Recomendation_System-Approach.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## 🚀 Getting Started
 
@@ -61,6 +66,8 @@ streamlit run frontend/app.py
 
 # 5. Open in browser:
 #    http://localhost:8501
+
+---
 
 # Project Structure
 cap5771sp25-project/
