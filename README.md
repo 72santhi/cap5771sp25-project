@@ -38,3 +38,4 @@ A demo of a GRU4Rec-powered recommendation engine that suggests next items (movi
    ```bash
    git clone https://github.com/<username>/cap5771sp25-project.git
    cd cap5771sp25-project
+
