@@ -23,12 +23,12 @@ A demo of a GRU4Rec-powered recommendation engine that suggests next items (movi
 ## 📺 Demo Videos
 
 1. **Live Dashboard Demo**  
-   <br>![Demo Video](https://www.youtube.com/watch?v=DEMO_VIDEO_ID)  
-   *(A 4-minute walkthrough of the Streamlit app: session building, recommendations, theming.)*
+   <br>![Demo Video](https://drive.google.com/file/d/1C1WuEWpatL2zhSvaX_6W_M98UIe9VejN/view?usp=sharing)  
+   *(A 4-minute walkthrough of the Streamlit app: session building & recommendations.)*
 
 2. **Approach & Dataset Overview**  
-   <br>![Approach Video](https://www.youtube.com/watch?v=APPROACH_VIDEO_ID)  
-   *(A 2-minute summary of data preprocessing, model architecture, and evaluation plan.)*
+   <br>![Approach Video](https://drive.google.com/file/d/1Iag5igRfxkv7yLTSvamyQ1tScOKBfdf2/view?usp=drive_link)  
+   *(A 4-minute summary of data preprocessing, model architecture, and evaluation.)*
 
 ---
 
@@ -38,4 +38,11 @@ A demo of a GRU4Rec-powered recommendation engine that suggests next items (movi
    ```bash
    git clone https://github.com/<username>/cap5771sp25-project.git
    cd cap5771sp25-project
+
+1. **download the model** (private):
+   You can run the https://github.com/72santhi/cap5771sp25-project/blob/main/source_code/Model_Training_%26_Evaluation.ipynb and store the best_session_rec_model.pth" in \source_scoe\model directory
+
+   or
+
+   Download the model fromt he link and place in the \source_scoe\model directory
 
