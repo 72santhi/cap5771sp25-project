@@ -24,12 +24,12 @@ An interactive recommendation system that predicts the next best item (Movie, Mu
 
 ## 📺 Demo Videos
 
-## 📺 Demo Videos
-
 ### 🔹 Dashboard Demo (4 mins)
-![mqdefault](https://youtu.be/w1nElGVKB1Y)
+## 📺 Dashboard Demo (4 mins)  
+[![▶️ Dashboard Demo]](https://youtu.be/YOUR_VIDEO_ID)
+
 ### 🔹 Dataset & Model Walkthrough (4 mins)
-![mqdefault](https://youtu.be/9GcDJNJSX6Q)
+[![▶️ Data Preprocessing, Model Selection & Training]](https://youtu.be/9GcDJNJSX6Q)
 ---
 
 ## 🚀 Getting Started
