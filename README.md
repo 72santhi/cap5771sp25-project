@@ -26,18 +26,12 @@ An interactive recommendation system that predicts the next best item (Movie, Mu
 
 ## 📺 Demo Videos
 
-### 🔹 Dashboard Demo (4 mins)
-<iframe width="640" height="360"
-  src="https://youtu.be/w1nElGVKB1Y"
-  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-</iframe>
+### 🔹 Dashboard Demo (4 mins)![mqdefault](https://github.com/user-attachments/assets/058b9427-689b-4fa5-a195-9b82271c5a04)
 
-### 🔹 Dataset & Model Walkthrough (4 mins)
-<iframe width="640" height="360"
-  src="https://youtu.be/9GcDJNJSX6Q"
-  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-</iframe>
 
+### 🔹 Dataset & Model Walkthrough (4 mins)![mqdefault](https://github.com/user-attachments/assets/a4b914ba-00aa-4121-80cd-9537c7fc20a0)
+
+---
 
 ## 🚀 Getting Started
 
