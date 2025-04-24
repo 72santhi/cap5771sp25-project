@@ -24,17 +24,20 @@ An interactive recommendation system that predicts the next best item (Movie, Mu
 
 ## 📺 Demo Videos
 
+## 📺 Demo Videos
+
 ### 🔹 Dashboard Demo (4 mins)
-<video width="640" height="360" controls>
-  <source src="Reports/Video Demo/Dashboard Demo.mpv4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe width="640" height="360"
+  src="https://youtu.be/w1nElGVKB1Y"
+  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+</iframe>
 
 ### 🔹 Dataset & Model Walkthrough (4 mins)
-<video width="640" height="360" controls>
-  <source src="Reports/Video Demo/Cross_Domain_Recomendation_System-Approach.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe width="640" height="360"
+  src="https://youtu.be/9GcDJNJSX6Q"
+  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+</iframe>
+
 
 ## 🚀 Getting Started
 
@@ -51,7 +54,7 @@ pip install -r requirements.txt
  Option A: Train locally
     Run:
     source_code/Model_Training_&_Evaluation.ipynb
-    Then ensure:
+    Then ensure(move the .pth file to source_code/models dir):
     source_code/models/best_session_rec_model.pth exists
 
  Option B: Download pretrained weights
@@ -66,8 +69,6 @@ streamlit run frontend/app.py
 
 # 5. Open in browser:
     http://localhost:8501
-```
----
 
 # Project Structure
 cap5771sp25-project/
@@ -96,3 +97,4 @@ cap5771sp25-project/
 ├── requirements.txt
 └── README.md
 
+```
