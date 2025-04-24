@@ -1,48 +1,93 @@
-# Session-Based Cross-Domain Recommender
+# 🎬 Session-Based Cross-Domain Recommender
 
-A demo of a GRU4Rec-powered recommendation engine that suggests next items (movies, music, books) based on your current click session. Packed into an interactive Streamlit dashboard with Netflix-style theming.
+An interactive recommendation system that predicts the next best item (Movie, Music, or Book) based on a user's ongoing session using a GRU4Rec model. The system is deployed via a Netflix-themed Streamlit dashboard with real-time interaction.
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.30.0-red)
+![License](https://img.shields.io/github/license/72santhi/cap5771sp25-project)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 ---
 
 ## 🎯 Project Overview
 
-- **Model**: GRU4Rec (session-based RNN)  
-- **Domains**: Movies, Music, Books  
-- **Data Sources**:  
-  - IMDb Movie Dataset  
-  - Spotify Tracks Dataset  
-  - Goodreads Book Metadata  
-- **Key Capabilities**:  
-  1. **Live Session Simulation**: Click domain-segmented items and see top-5 next-item recommendations in real time.  
-  2. **Performance Metrics**: Precision@K, Recall@K, F1@K plotted over training epochs.  
-  3. **Bias Analysis**: Popularity & domain imbalance explorer (planned).  
-  4. **Dark “Netflix” Theme**: Pitch-black background, red accents, white text.
+- **Model**: GRU4Rec (session-based RNN)
+- **Domains**: Movies, Music, Books
+- **Datasets**: IMDb, Spotify, Goodreads
+- **Features**:
+  - 🔁 Session tracking  
+  - 🔮 Live top-5 predictions  
+  - 📈 Precision@K, Recall@K, F1@K  
+  - 🎨 Netflix-style dark theme  
 
 ---
 
 ## 📺 Demo Videos
 
-1. **Live Dashboard Demo**  
-   <br>![Demo Video](https://drive.google.com/file/d/1C1WuEWpatL2zhSvaX_6W_M98UIe9VejN/view?usp=sharing)  
-   *(A 4-minute walkthrough of the Streamlit app: session building & recommendations.)*
+### Dashboard Demo (4 mins)  
+<iframe src="https://drive.google.com/file/d/1C1WuEWpatL2zhSvaX_6W_M98UIe9VejN/preview" width="640" height="360" allow="autoplay"></iframe>
 
-2. **Approach & Dataset Overview**  
-   <br>![Approach Video](https://drive.google.com/file/d/1Iag5igRfxkv7yLTSvamyQ1tScOKBfdf2/view?usp=drive_link)  
-   *(A 4-minute summary of data preprocessing, model architecture, and evaluation.)*
+### Dataset & Model Walkthrough (4 mins)  
+<iframe src="https://drive.google.com/file/d/1Iag5igRfxkv7yLTSvamyQ1tScOKBfdf2/preview" width="640" height="360" allow="autoplay"></iframe>
 
 ---
 
-## 🚀 Installation
+## 🚀 Getting Started
 
-1. **Clone the repo** (private):  
-   ```bash
-   git clone https://github.com/<username>/cap5771sp25-project.git
-   cd cap5771sp25-project
+```bash
+# 1. Clone the repository
+git clone https://github.com/72santhi/cap5771sp25-project.git
+cd cap5771sp25-project
 
-1. **download the model** (private):
-   You can run the https://github.com/72santhi/cap5771sp25-project/blob/main/source_code/Model_Training_%26_Evaluation.ipynb and store the best_session_rec_model.pth" in \source_scoe\model directory
+# 2. Install dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
 
-   or
+# 3. Prepare model weights
+# Option A: Train locally
+#    Run:
+#    source_code/Model_Training_&_Evaluation.ipynb
+#    Then ensure:
+#    source_code/models/best_session_rec_model.pth exists
+#
+# Option B: Download pretrained weights
+#    Download from:
+#    https://drive.google.com/file/d/1wLrek6zZWnobHuXkVKmaQmbUgEWBZZxK/view?usp=sharing
+#    Then:
+mkdir -p source_code/models
+mv best_session_rec_model.pth source_code/models/
 
-   Download the model fromt he link and place in the \source_scoe\model directory
+# 4. Launch the dashboard
+streamlit run frontend/app.py
+
+# 5. Open in browser:
+#    http://localhost:8501
+
+# **Project Structure**
+cap5771sp25-project/
+├── .streamlit/
+│   ├── config.toml
+|   ├── session_events.csv
+├── Data/
+│   └── data_access_info.txt          
+├── frontend/
+│   └── app.py                         # Streamlit UI
+├── source_code/
+  |   ├──__init__.py 
+│   ├── recommender.py                 # GRU4Rec inference code
+│   ├── session_events.csv             # Simulated session data
+│   ├── Model_Training_&_Evaluation.ipynb
+|   ├── Data_Preprocessing_&_Visualizations
+│   └── models/
+│       └── best_session_rec_model.pth
+├── Reports/
+│   ├── Milestone1.pdf
+|   ├── Milestone2.pdf
+|   ├── Milestone3.pdf
+|   └── Video Demo/
+|       ├── Dashboard Demo.mpv4
+|       ├── Cross_DOmain_Recomondation_System_approach.mpv4
+├── requirements.txt
+└── README.md
 
