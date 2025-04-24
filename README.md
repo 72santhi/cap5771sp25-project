@@ -17,9 +17,7 @@ An interactive recommendation system that predicts the next best item (Movie, Mu
 - **Datasets**: IMDb, Spotify, Goodreads
 - **Features**:
   - 🔁 Session tracking  
-  - 🔮 Live top-5 predictions  
-  - 📈 Precision@K, Recall@K, F1@K  
-  - 🎨 Netflix-style dark theme  
+  - 🔮 Live top-5 predictions    
 
 ---
 
@@ -45,16 +43,16 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 # 3. Prepare model weights
-# Option A: Train locally
-#    Run:
-#    source_code/Model_Training_&_Evaluation.ipynb
-#    Then ensure:
-#    source_code/models/best_session_rec_model.pth exists
-#
-# Option B: Download pretrained weights
-#    Download from:
-#    https://drive.google.com/file/d/1wLrek6zZWnobHuXkVKmaQmbUgEWBZZxK/view?usp=sharing
-#    Then:
+ Option A: Train locally
+    Run:
+    source_code/Model_Training_&_Evaluation.ipynb
+    Then ensure:
+    source_code/models/best_session_rec_model.pth exists
+
+ Option B: Download pretrained weights
+    Download from:
+    https://drive.google.com/file/d/1wLrek6zZWnobHuXkVKmaQmbUgEWBZZxK/view?usp=sharing
+    Then:
 mkdir -p source_code/models
 mv best_session_rec_model.pth source_code/models/
 
@@ -64,7 +62,7 @@ streamlit run frontend/app.py
 # 5. Open in browser:
 #    http://localhost:8501
 
-# **Project Structure**
+# Project Structure
 cap5771sp25-project/
 ├── .streamlit/
 │   ├── config.toml
