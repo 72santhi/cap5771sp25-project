@@ -5,7 +5,6 @@ An interactive recommendation system that predicts the next best item (Movie, Mu
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0-orange)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.30.0-red)
-![License](https://img.shields.io/github/license/72santhi/cap5771sp25-project)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 ---
@@ -25,6 +24,7 @@ An interactive recommendation system that predicts the next best item (Movie, Mu
 ## 📺 Demo Videos
 
 [[▶️ Dashboard Demo]](https://youtu.be/YOUR_VIDEO_ID)
+[[▶️ Data Preprocessing, Model Selection & Training]](https://youtu.be/9GcDJNJSX6Q)
 
 [[▶️ Data Preprocessing, Model Selection & Training]](https://youtu.be/9GcDJNJSX6Q)
 ---
